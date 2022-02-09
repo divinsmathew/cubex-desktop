@@ -319,7 +319,7 @@ private: System::Windows::Forms::Button^  Scan;
 			 void InitializeComponent(void)
 			 {
 				 this->components = (gcnew System::ComponentModel::Container());
-				 System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Inp_Form::typeid));
+				 System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Inp_Form::typeid));
 				 this->Cust_Close = (gcnew System::Windows::Forms::Button());
 				 this->label1 = (gcnew System::Windows::Forms::Label());
 				 this->Alg_Label = (gcnew System::Windows::Forms::Label());
@@ -3661,7 +3661,7 @@ private: System::Windows::Forms::Button^  Scan;
 				 this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 				 this->BackColor = System::Drawing::Color::DarkGray;
 				 this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
-				 this->ClientSize = System::Drawing::Size(448, 530);
+				 this->ClientSize = System::Drawing::Size(448, 390);
 				 this->ControlBox = false;
 				 this->Controls->Add(this->Scan);
 				 this->Controls->Add(this->Reset_Button);
@@ -8761,7 +8761,6 @@ private: System::Void button2_Click(System::Object^  sender, System::EventArgs^ 
 	this->__52->BackColor = System::Drawing::Color::Silver;
 	this->__53->BackColor = System::Drawing::Color::Silver;
 	this->__54->BackColor = System::Drawing::Color::Silver;
-
 }
 
 //VideoCaptureDevice^ Cam;
